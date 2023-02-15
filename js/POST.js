@@ -11,7 +11,6 @@ function enviarContactos() {
     clearCamps();
     alert("Necesitas reiniciar la pagina para ver los datos actualizados...");
 }
-
 function clearCamps(){
     document.getElementById('nombre').value = "";
     document.getElementById('apellido').value = "";

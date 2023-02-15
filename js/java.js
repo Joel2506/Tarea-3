@@ -5,7 +5,6 @@ function cargarContactos() {
         buildTable(contactos);
     });
 }
-
 function buildTable(data){
     var table = document.getElementById("my_table");
 
